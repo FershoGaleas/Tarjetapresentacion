@@ -1,0 +1,306 @@
+:root{
+    --colorPrimario:#FF0000;
+    --colorSecundario:#00FFFF;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url("fondo_original.jpg");
+}
+.fondo_principal{
+   
+    width: 100%;
+    height: auto;
+    
+}
+.bloque_1{
+    background-color: black;
+    width: 900px;
+    height: 500px;
+    margin: 100px 0 0 360px;
+    box-shadow: 5px 4px 6px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+.bloque_fondo{
+    width: 450px;
+    height: 500px;
+    border-right: 4px solid white;
+}
+.fondo{
+    background-image: url("fondo.png");
+    width: 100%;
+    height: 500px;
+    
+}
+.bloque_superior_1{
+    background-color: var(--colorPrimario);
+    width: 100%;
+    height: 13px;
+    
+}
+.bloque_inferior_1{
+    background-color: var(--colorSecundario);
+    width: 100%;
+    height: 13px;
+    margin-top: 13px;
+}
+
+.fondo img{
+    width: 300px;
+    height: 330px;
+    border-radius: 100%;
+    margin: 17% 10px 50px 20%;
+}
+
+.bloque_fondo_2{
+    
+    width: 450px;
+    height: auto;
+     
+}
+
+.bloque_superior_2{
+    background-color: var(--colorSecundario);
+    width: 100%;
+    height: 13px;
+
+}
+.bloque_imagen_2{
+   width: 100%;
+   height: 475px;
+   text-align: center;
+   img{
+    margin-top: 5px;
+   }
+   .bloque_letras{
+    width: 100%;
+    margin-top: 5px;
+   
+        .letras{
+            color: white;
+            font-family: LEMON;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        .boton_contacto{
+            width: 200px;
+            height: 35px;
+            background-color: #FF0000;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 20px 0 0 125px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: LEMON;
+                font-size: 27px;
+            }
+        }
+    }
+   
+}
+.bloque_redes{
+    width: 100%;
+    display: flex;
+    margin: 40px 0 0 30px;
+    .redes_facebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .nombre{
+            padding-top: 5px;
+            font-family: LEMON;
+            color: white;
+            font-size: 12px;
+            
+        }     
+        img{
+            padding: 10px;
+        }
+    }
+    .redes_instagram{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        .nombre{
+            padding-top: 5px;
+            font-family: LEMON;
+            color: white;
+            font-size: 12px;
+            
+        }     
+        img{
+            padding: 10px;
+        }
+    }
+}
+.bloque_inferior_2{
+    background-color: var(--colorPrimario);
+    width: 100%;
+    height: 13px;
+    margin-top: auto;
+}
+
+.final{
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+@media(max-width:600px){
+    .fondo_principal{
+   
+        width: 50%;
+        height: auto;
+        
+    }
+    .bloque_1{
+        background-color: black;
+        width: 450px;
+        height: 1000px;
+        margin: 50px 0 0 50px;
+        box-shadow: 5px 4px 6px 1px rgba(0, 0, 0, 0.4);
+        display: block;
+    }
+    .bloque_fondo{
+        width: 450px;
+        height: 500px;
+       
+    }
+    .fondo{
+        background-image: url("fondo.png");
+        width: 100%;
+        height: 990px;
+        
+    }
+    .bloque_superior_1{
+        background-color: var(--colorSecundario);
+        width: 100%;
+        height: 13px;
+        
+    }
+    .bloque_inferior_1{
+        background-color: var(--colorSecundario);
+        width: 0%;
+        height: 0px;
+        margin-top: 0px;
+    }
+    
+    .fondo img{
+        width: 300px;
+        height: 330px;
+        border-radius: 100%;
+        margin: 17% 10px 50px 17%;
+    }
+    
+    .bloque_fondo_2{
+        
+        width: 450px;
+        height: auto;
+         
+    }
+    
+    .bloque_superior_2{
+        background-color: black;
+        width: 0%;
+        height: 0px;
+    
+    }
+    .bloque_imagen_2{
+       width: 100%;
+       height: 475px;
+       text-align: center;
+       img{
+        margin-top: 5px;
+       }
+       .bloque_letras{
+        width: 100%;
+        margin-top: 5px;
+       
+            .letras{
+                color: white;
+                font-family: LEMON;
+                padding-top: 20px;
+                font-size: 20px;
+            }
+            .boton_contacto{
+                width: 200px;
+                height: 35px;
+                background-color: #FF0000;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px 0 0 125px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-family: LEMON;
+                    font-size: 27px;
+                }
+            }
+        }
+       
+    }
+    .bloque_redes{
+        width: 100%;
+        display: flex;
+        margin: 40px 0 0 30px;
+        .redes_facebook{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .nombre{
+                padding-top: 5px;
+                font-family: LEMON;
+                color: white;
+                font-size: 12px;
+                
+            }     
+            img{
+                padding: 10px;
+            }
+        }
+        .redes_instagram{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+            .nombre{
+                padding-top: 5px;
+                font-family: LEMON;
+                color: white;
+                font-size: 12px;
+                
+            }     
+            img{
+                padding: 10px;
+            }
+        }
+    }
+    .bloque_inferior_2{
+        background-color: var(--colorPrimario);
+        width: 100%;
+        height: 15px;
+        margin-top: 12px;
+    }
+    
+    .final{
+        margin-top: 150px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    
+
+}
+
+
+
